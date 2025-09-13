@@ -10,10 +10,10 @@ The Game:
 - The objective is to **collect as many treats as possible**.
 
 Project involves two logics:
-`hungry_monkey_printf.c` – Basic strategy* 
+- `hungry_monkey_printf.c` – Basic strategy* 
    - Plans a path once and follows it until the end.  
    - Replans only when the path is finished.  
-`move_monkey.c` – Adaptive strategy  
+- `move_monkey.c` – Adaptive strategy  
    - Replans every few steps or when the chosen path is no longer valuable.  
    - More robust in dynamic environments.
      
